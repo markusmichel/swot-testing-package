@@ -1,0 +1,6 @@
+[submodule "swot"]
+	path = swot
+	url = https://github.com/markusmichel/swot.git
+[submodule "swot-bus-station-prototype"]
+	path = swot-bus-station-prototype
+	url = https://github.com/markusmichel/swot-bus-station-prototype.git

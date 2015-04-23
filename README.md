@@ -23,3 +23,9 @@ This will start the Swot network and all included prototypes. Everything will ru
 
 # Cleanup
 `vagrant destroy`
+
+# Starting sigle machines
+You can start each included machine individually
+- `vagrant up swot`
+- `vagrant up swot-prototype-bus-station`
+- `vagrant up swot-prototype-lamp`

@@ -1,0 +1,1 @@
+{"nfs":{"/var/www":{"type":"nfs","guestpath":"/var/www","hostpath":"/Users/markus/GitHub/swot-testing-package/swot","disabled":false,"map_uid":501,"map_gid":20,"nfs_udp":true,"nfs_version":3,"uuid":"2565436196"}},"virtualbox":{"/vagrant":{"guestpath":"/vagrant","hostpath":"/Users/markus/GitHub/swot-testing-package","disabled":false}}}

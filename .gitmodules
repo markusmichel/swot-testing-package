@@ -4,3 +4,12 @@
 [submodule "swot-bus-station-prototype"]
 	path = swot-bus-station-prototype
 	url = https://github.com/markusmichel/swot-bus-station-prototype.git
+[submodule "swot_thing"]
+	path = swot_thing
+	url = https://github.com/ElwoodSlut/swot_thing.git
+[submodule "swot_coffee_machine"]
+	path = swot_coffee_machine
+	url = https://github.com/Noodlewood/swot_coffee_machine.git
+[submodule "swot_walking_dead"]
+	path = swot_walking_dead
+	url = https://github.com/Noodlewood/swot_walking_dead.git

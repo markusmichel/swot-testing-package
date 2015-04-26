@@ -1,0 +1,1 @@
+{"virtualbox":{"/var/www":{"guestpath":"/var/www","hostpath":"/Users/markus/GitHub/swot-testing-package/swot_coffee_machine","disabled":false},"/vagrant":{"guestpath":"/vagrant","hostpath":"/Users/markus/GitHub/swot-testing-package","disabled":false}}}

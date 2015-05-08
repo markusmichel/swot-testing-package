@@ -25,7 +25,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 		prototype.vm.box = "precise64"
 		prototype.vm.box_url = "http://files.vagrantup.com/precise64.box"
 		prototype.vm.network "private_network", ip: "13.13.13.14"
-		prototype.vm.network "forwarded_port", guest: 3000, host: 80
+		#prototype.vm.network "forwarded_port", guest: 3000, host: 80
 		prototype.vm.synced_folder "./swot-bus-station-prototype", "/var/www"
 		prototype.vm.provision :shell, :path => "Vagrant_provision_meteor.sh"
 	end

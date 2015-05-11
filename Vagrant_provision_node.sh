@@ -14,7 +14,7 @@ sudo npm update -g npm
 
 cd /var/www
 rm -Rf html/
-npm install
-npm install sqlite3
-sudo npm install -g nodemon
-npm start &
+sudo npm install
+sudo npm install sqlite3
+#sudo npm install -g nodemon
+#sudo npm start &

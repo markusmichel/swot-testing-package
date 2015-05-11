@@ -64,3 +64,6 @@ php app/console doctrine:database:create
 php app/console doctrine:schema:update --force
 php app/console cache:clear
 php app/console cache:clear --env=prod
+
+# Step was necessary under windows ... RIGHT PLACE TO PUT THIS HERE?!?!?!?!?!?!
+# sudo chmod -R 777 app/cache

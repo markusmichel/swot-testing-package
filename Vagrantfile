@@ -58,7 +58,8 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 	config.vm.define "swot-rsync", autostart: false do |swot|	   
 		swot.vm.box = "precise64"
 		swot.vm.box_url = "http://files.vagrantup.com/precise64.box"
-		swot.vm.network "private_network", ip: "13.13.13.18"
+		#swot.vm.network "private_network", ip: "13.13.13.18"
+		swot.vm.network "private_network", ip: "13.13.13.13"
 		ENV["VAGRANT_DETECTED_OS"] = ENV["VAGRANT_DETECTED_OS"].to_s + " cygwin"
 		config.vm.synced_folder "./swot", "/var/www", type: "rsync",
 			rsync__exclude: ".git/",

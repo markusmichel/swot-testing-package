@@ -30,3 +30,5 @@ You can start each included machine individually
 - `vagrant up swot`
 - `vagrant up swot-prototype-bus-station`
 - `vagrant up swot-prototype-lamp`
+- `vagrant up swot-prototype-coffee`
+- `vagrant up swot-prototype-walking-dead`

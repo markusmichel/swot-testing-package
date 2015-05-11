@@ -4,7 +4,8 @@ This is a testing package for Swot network (https://github.com/markusmichel/swot
 Included prototypes are:
 - https://github.com/markusmichel/swot-bus-station-prototype
 - https://github.com/ElwoodSlut/swot_thing
-- ...
+- https://github.com/Noodlewood/swot_coffee_machine.git
+- https://github.com/Noodlewood/swot_walking_dead.git
 
 # Requires
 Vagrant (https://www.vagrantup.com/)

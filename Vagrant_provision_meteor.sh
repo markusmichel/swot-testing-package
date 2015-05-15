@@ -10,6 +10,7 @@ sudo apt-get install -q -y --no-upgrade \
 	nodejs \
 	build-essential
 
+sleep 5
 
 mkdir -p /home/vagrant/swot-bus-station-prototype/.meteor/local/
 sudo mount --bind /home/vagrant/swot-bus-station-prototype/.meteor/local/ /var/www/.meteor/local/
@@ -26,4 +27,4 @@ sudo chmod -R 777 /home/vagrant/swot-bus-station-prototype/
 cd /var/www
 rm -Rf html/
 curl https://install.meteor.com/ | sh
-#meteor
+meteor 0<&- &>/dev/null &

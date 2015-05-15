@@ -30,8 +30,11 @@ This will start the Swot network and all included prototypes. Everything will ru
 
 # Starting sigle machines
 You can start each included machine individually
-- `vagrant up swot`
+- `vagrant up swot` or `vagrant up swot-rsync` for windows hosts (see below)
 - `vagrant up swot-prototype-bus-station`
 - `vagrant up swot-prototype-lamp`
 - `vagrant up swot-prototype-coffee`
 - `vagrant up swot-prototype-walking-dead`
+
+# For Windows users
+There is a vagrant/swot machine optimized for windows host machines called `swot-rsync`. This machine uses `rsync` instead of `nfs` which works way faster and without complications on windows hosts. This requires the user to install `cygwin` (https://cygwin.com/install.htm) with the `Rsync` and `OpenSSH` packages.

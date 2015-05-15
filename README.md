@@ -41,6 +41,7 @@ There is a vagrant/swot machine optimized for windows host machines called `swot
 
 # Urls and ports
 name              | url
+------------------|-----------------
 swot / swot-rsync | 13.13.13.13
 bus-station       | 13.13.13.14:3000
 lamp              | 13.13.13.15:3000

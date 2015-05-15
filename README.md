@@ -15,6 +15,9 @@ Vagrant (https://www.vagrantup.com/)
 
 `git submodule update --init`
 
+# Update all submodules
+`git submodule foreach git pull origin master`
+
 # Start
 `cd swot-testing-package`
 

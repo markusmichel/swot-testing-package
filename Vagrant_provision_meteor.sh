@@ -27,4 +27,4 @@ sudo chmod -R 777 /home/vagrant/swot-bus-station-prototype/
 cd /var/www
 rm -Rf html/
 curl https://install.meteor.com/ | sh
-meteor 0<&- &>/dev/null &
+#meteor 0<&- &>/dev/null &

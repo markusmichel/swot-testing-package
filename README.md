@@ -15,6 +15,9 @@ Vagrant (https://www.vagrantup.com/)
 
 `git submodule update --init`
 
+# Update all submodules
+`git submodule foreach git pull origin master`
+
 # Start
 `cd swot-testing-package`
 
@@ -27,8 +30,20 @@ This will start the Swot network and all included prototypes. Everything will ru
 
 # Starting sigle machines
 You can start each included machine individually
-- `vagrant up swot`
+- `vagrant up swot` or `vagrant up swot-rsync` for windows hosts (see below)
 - `vagrant up swot-prototype-bus-station`
 - `vagrant up swot-prototype-lamp`
 - `vagrant up swot-prototype-coffee`
 - `vagrant up swot-prototype-walking-dead`
+
+# For Windows users
+There is a vagrant/swot machine optimized for windows host machines called `swot-rsync`. This machine uses `rsync` instead of `nfs` which works way faster and without complications on windows hosts. This requires the user to install `cygwin` (https://cygwin.com/install.htm) with the `Rsync` and `OpenSSH` packages.
+
+# Urls and ports
+name              | url
+------------------|-----------------
+swot / swot-rsync | 13.13.13.13
+bus-station       | 13.13.13.14:3000
+lamp              | 13.13.13.15:3000
+coffee            | 13.13.13.16:3000
+walking-dead      | 13.13.13.17:3000

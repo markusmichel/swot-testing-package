@@ -24,6 +24,8 @@ sudo mount --bind /home/vagrant/swot-bus-station-prototype/.meteor/local/ /var/w
 sudo chmod -R 777 /var/www/
 sudo chmod -R 777 /home/vagrant/swot-bus-station-prototype/
 
+chmod +x /vagrant/vagrant_files/start_meteor.sh
+
 cd /var/www
 rm -Rf html/
 curl https://install.meteor.com/ | sh

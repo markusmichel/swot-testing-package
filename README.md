@@ -38,3 +38,11 @@ You can start each included machine individually
 
 # For Windows users
 There is a vagrant/swot machine optimized for windows host machines called `swot-rsync`. This machine uses `rsync` instead of `nfs` which works way faster and without complications on windows hosts. This requires the user to install `cygwin` (https://cygwin.com/install.htm) with the `Rsync` and `OpenSSH` packages.
+
+# Urls and ports
+name              | url
+swot / swot-rsync | 13.13.13.13
+bus-station       | 13.13.13.14:3000
+lamp              | 13.13.13.15:3000
+coffee            | 13.13.13.16:3000
+walking-dead      | 13.13.13.17:3000
